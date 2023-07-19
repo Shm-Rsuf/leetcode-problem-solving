@@ -11,9 +11,7 @@ var intersect = function (nums1, nums2) {
   return res;
 };
 
-console.log(intersect([4, 9, 5], [9, 4, 9, 8, 4]));
-
-/* Example 1:
+/*
 Input: nums1 = [1,2,2,1], nums2 = [2,2]
 Output: [2]
 Example 2:
