@@ -1,3 +1,5 @@
+/* Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle.
+In Pascal's triangle, each number is the sum of the two numbers directly above it as shown: */
 var getRow = function (rowIndex) {
   var row = [1];
   for (var i = 1; i <= rowIndex; i++) {
@@ -9,3 +11,12 @@ var getRow = function (rowIndex) {
 };
 
 getRow();
+
+/* Input: rowIndex = 3
+Output: [1,3,3,1]
+
+Input: rowIndex = 0
+Output: [1]
+
+Input: rowIndex = 1
+Output: [1,1] */
