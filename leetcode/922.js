@@ -20,7 +20,7 @@ var sortArrayByParityII = function (nums) {
   return result;
 };
 
-console.log(sortArrayByParityII([4, 2, 5, 7]));
+// console.log(sortArrayByParityII([4, 2, 5, 7]));
 
 /*
 Input: nums = [4,2,5,7]
