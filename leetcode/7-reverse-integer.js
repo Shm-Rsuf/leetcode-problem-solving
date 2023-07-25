@@ -12,6 +12,6 @@ var reverse = function (x) {
   return reverseInt * Math.sign(x);
 };
 
-console.log(reverse(-123));
+// console.log(reverse(-123));
 /* Input: x = 123;
 Output: 321; */
