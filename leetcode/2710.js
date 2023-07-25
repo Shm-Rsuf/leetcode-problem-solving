@@ -12,7 +12,7 @@ var removeTrailingZeros = function (num) {
     return num.substring(0, i + 1);
   }
 };
-console.log(removeTrailingZeros("51230100"));
+// console.log(removeTrailingZeros("51230100"));
 
 /* 
 Example 1:
