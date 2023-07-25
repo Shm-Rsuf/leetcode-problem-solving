@@ -8,7 +8,7 @@ var smallestEvenMultiple = function (n) {
   return n % 2 === 0 ? n : n * 2;
 };
 
-console.log(smallestEvenMultiple(6));
+// console.log(smallestEvenMultiple(6));
 /* Input: n = 5
 Output: 10
 Explanation: The smallest multiple of both 5 and 2 is 10.
