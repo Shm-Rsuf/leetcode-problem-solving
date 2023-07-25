@@ -13,7 +13,7 @@ var minimizedStringLength = function (s) {
   return [...new Set(s.split(""))].length;
 };
 
-console.log(minimizedStringLength("aaabbc"));
+// console.log(minimizedStringLength("aaabbc"));
 
 /* 
 Input: s = "aaabc"
