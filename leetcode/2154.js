@@ -13,7 +13,7 @@ var findFinalValue = function (nums, original) {
   return original;
 };
 
-console.log(findFinalValue([5, 3, 6, 1, 12], 3));
+// console.log(findFinalValue([5, 3, 6, 1, 12], 3));
 /* 
 Input: nums = [5,3,6,1,12], original = 3
 Output: 24
