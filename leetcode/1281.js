@@ -19,7 +19,7 @@ var subtractProductAndSum = function (n) {
   return mul - add;
 };
 
-console.log(subtractProductAndSum(234));
+// console.log(subtractProductAndSum(234));
 
 /* Input: n = 234
 Output: 15 
