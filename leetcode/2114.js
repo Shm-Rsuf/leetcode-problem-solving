@@ -14,13 +14,13 @@ var mostWordsFound = function (sentences) {
   return result.sort((a, b) => b - a)[0];
 };
 
-console.log(
+/* console.log(
   mostWordsFound([
     "alice and bob love leetcode",
     "i think so too",
     "this is great thanks very much",
   ])
-);
+); */
 
 /* Input: sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"]
 Output: 6
