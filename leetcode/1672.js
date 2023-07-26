@@ -20,12 +20,12 @@ var maximumWealth = function (accounts) {
   return Math.max(...value);
 };
 
-console.log(
+/* console.log(
   maximumWealth([
     [1, 2, 3],
     [3, 2, 1],
   ])
-);
+); */
 
 /* 
 Input: accounts = [[1,2,3],[3,2,1]]
