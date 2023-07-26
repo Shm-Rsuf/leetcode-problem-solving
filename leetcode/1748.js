@@ -17,9 +17,9 @@ var sumOfUnique = function (nums) {
     return [...mySet].reduce((preV, currV) => preV + currV, 0);
   }
 };
-console.log(sumOfUnique([1, 1, 1, 1, 1]));
-console.log(sumOfUnique([1, 2, 3, 4, 5]));
-console.log(sumOfUnique([1, 2, 3, 2]));
+// console.log(sumOfUnique([1, 1, 1, 1, 1]));
+// console.log(sumOfUnique([1, 2, 3, 4, 5]));
+// console.log(sumOfUnique([1, 2, 3, 2]));
 /* 
 Input: nums = [1,2,3,2]
 Output: 4
