@@ -1,3 +1,7 @@
+/* 
+Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must be unique and you may return the result in any order.
+*/
+
 var intersect = function (nums1, nums2) {
   let set1 = new Set(nums1);
   let set2 = new Set(nums2);
@@ -10,6 +14,8 @@ var intersect = function (nums1, nums2) {
   }
   return res;
 };
+
+console.log(intersect([4, 9, 5], [9, 4, 9, 8, 4]));
 
 /*
 Input: nums1 = [1,2,2,1], nums2 = [2,2]
