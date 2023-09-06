@@ -45,9 +45,6 @@ var intToRoman = function (num) {
   return result.join("");
 };
 
-console.log(intToRoman(5));
-console.log(intToRoman(15));
-
 /* Example 1:
 
 Input: num = 3
