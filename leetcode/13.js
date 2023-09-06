@@ -16,7 +16,6 @@ var romanToInt = function (s) {
   return result;
 };
 
-console.log(romanToInt(3));
 /* Input: s = "III";
 Output: 3;
 Explanation: III = 3; */
