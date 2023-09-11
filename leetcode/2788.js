@@ -11,8 +11,6 @@ var splitWordsBySeparator = function (words, separator) {
   return newArr.flat(Infinity).filter((value) => value !== "");
 };
 
-console.log(splitWordsBySeparator(["one.two.three", "four.five", "six"], "."));
-
 /* 
 Input: words = ["one.two.three","four.five","six"], separator = "."
 Output: ["one","two","three","four","five","six"]
